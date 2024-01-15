@@ -1,0 +1,26 @@
+@media screen and (max-width:600px) {
+
+    /* nav section responsive start */
+    nav,
+    ul,
+    .logo {
+        flex-direction: column;
+    }
+
+    .logo h3 {
+        font-size: 1.5rem;
+
+    }
+
+    .nav-section {
+        padding: 6px;
+    }
+
+    ul {
+        margin-top: 30px;
+        gap: 15px;
+    }
+
+    /* nav section responsive end */
+
+}
