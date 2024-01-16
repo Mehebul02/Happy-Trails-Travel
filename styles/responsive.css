@@ -74,9 +74,26 @@
 .destination-content{
     padding: 10px;
 }
-.row{
+.row {
     flex-direction: column;
     height: auto;
+}
+.destination-img-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.choose-us-card-container{
+    flex-direction: column;
+}
+.card-item-3{
+    width: 100%;
+    
+  
+}
+
+.common-title, .card-title{
+    font-size: 1.4rem;
 }
 
 }
