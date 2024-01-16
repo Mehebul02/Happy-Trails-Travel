@@ -23,4 +23,41 @@
 
     /* nav section responsive end */
 
+    /* .banner section  */
+    .banner {
+        max-width: 1140px;
+        width: 95%;
+        height: 500px;
+       
+    }
+    .banner-title, .banner-content {
+       margin-top: 50px;
+        font-size: 2rem;
+        
+    }
+    
+.banner-descripton {
+    
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    
+
+}
+
+
+
+.form-section{
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.form-section input , #select-btn , .btn-primary{
+   width:240px;
+   margin-top: 10px;
+}
+.form-section input{
+    
+}
+
 }
