@@ -64,7 +64,7 @@ body {
 
 .nav-section {
     padding: 40px;
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -89,8 +89,8 @@ ul {
 li a {
     text-decoration: none;
     color: #424247;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 600;
 
 }
 
@@ -301,71 +301,10 @@ li a:hover {
 }
 
 /* news-letter-section */
-/* .news-letter-section {
-    max-width: 1240px;
-    min-height: 400px;
-    margin: 0 auto;
-    margin-top: 100px;
-   
-   
-}
-.news-letter-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-
-}
-.news-letter-form{
-    width: 90%;
-}
-
-.form-title {
-    color: var(--secondary-color);
-    font-size: 1.7rem;
-    font-weight: 800;
-
-}
-
-.form-description {
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-}
-.form-container input {
+.image img{
     display: block;
-    width: 393px;
-    height: 52px;
-  
-    border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-    color: rgba(19, 19, 24, 0.30);
-    font-size: 1rem;
-    font-weight: 400;
-    border: none;
-    margin-top: 16px;
-   
-
-}
-#subscribe-btn{
-    margin-top: 24px;
-    width: 393px;
-height: 52px;
-padding: 16px 160px;
-border: none;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 800;
-
-}
-.save-discount img{
     width: 100%;
-    
-} */
+}
 .save{
     width: 300px;
 height: 80px;
@@ -405,9 +344,9 @@ position: relative;
 
 
 .login-container {
-    background-color: #fff;
-    border-radius: 8px;
-   
+    border-radius: 16px;
+border: 1px solid #FF5400;
+   background: #FFF;
     overflow: hidden;
     width: 100%;
     max-width: 400px;
@@ -417,7 +356,7 @@ position: relative;
 
 .login-container h2 {
     color: #131318;
-font-size: 24px;
+font-size: 27px;
 font-weight: 800;
 margin-bottom: 15px;
 
@@ -428,12 +367,13 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px; 
 margin-bottom: 15px;
+
 }
 
 .login-form input {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 16px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;

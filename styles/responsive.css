@@ -20,6 +20,9 @@
         margin-top: 30px;
         gap: 15px;
     }
+    li a{
+        font-size: 25px;
+    }
 
     /* nav section responsive end */
 
@@ -78,6 +81,9 @@
     flex-direction: column;
     height: auto;
 }
+.destination-container{
+    margin-top: 5px;
+}
 .destination-img-section {
     width: 90%;
     margin: 0 auto;
@@ -85,6 +91,9 @@
 }
 .choose-us-card-container {
     flex-direction: column;
+}
+.choose-us-card-container{
+    margin-top: 5px;
 }
 .card-item-3{
     width: 85%;
@@ -100,12 +109,14 @@
 }
 .news-container{
     flex-direction: column;
+    margin-top: 5px;
 }
 .login-container {
-    max-width: 100%;
+    max-width: 82%;
+    margin: 0 auto;
 }
 .news-container-img img{
-    width: 100%;
+    max-width: 85%;
     margin: 0 auto;
 }
 .common-description{
@@ -137,15 +148,9 @@ hr{
 .save{
     width: 214.023px;
     height: 79.268px;
-transform: rotate(-19.628deg);
-border-radius: 1rem;
-background: #FF5400;
-display: flex;
-justify-content: center;
-align-items: center;
-position: absolute;
-bottom: 46px;
-right:  0px;
+bottom: 30px;
+right:  40px;
 
 } 
+
 }
