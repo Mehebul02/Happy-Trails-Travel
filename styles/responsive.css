@@ -70,5 +70,13 @@
 .tours-img img{
    width: 100%;
 }
+/* destination */
+.destination-content{
+    padding: 10px;
+}
+.row{
+    flex-direction: column;
+    height: auto;
+}
 
 }
