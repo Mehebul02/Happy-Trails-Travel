@@ -38,6 +38,7 @@ body {
     align-items: center;
 
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -59,19 +60,22 @@ li a {
     font-weight: 400;
 
 }
-li a:hover{
+
+li a:hover {
     color: var(--primary-color);
 }
+
 .nav-name {
     display: flex;
     max-width: 80%;
 
 }
+
 /* Banner Section styles */
-.banner{
+.banner {
     max-width: 1240px;
     border: 2px solid red;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-position: top center;
     margin: 0 auto;
@@ -79,21 +83,53 @@ li a:hover{
     border-radius: 16px;
 
 }
- .banner-content{
+
+.banner-content {
     text-align: center;
     margin-top: 106px;
- }
- .banner-title{
+}
+
+.banner-title {
     color: #FFF;
-font-size: 4rem;
-font-weight: 800;
+    font-size: 4rem;
+    font-weight: 800;
 
- }
- .banner-descripton{
+}
+
+.banner-descripton {
     color: #FFF;
-font-size: 1rem;
+    font-size: 1rem;
 
-font-weight: 400;
-line-height: 26px; 
- }
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.form-section {
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 16px;
+  
+    align-items: center;
+    
+}
+
+.form-section input,
+#select-btn {
+   margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+
+
+
+}
+
+/* #select-btn{
+    width: 150px;
+    height: 40px;
+ } */
