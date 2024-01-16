@@ -83,11 +83,11 @@
     margin: 0 auto;
     margin-top: 20px;
 }
-.choose-us-card-container{
+.choose-us-card-container {
     flex-direction: column;
 }
 .card-item-3{
-    width: 100%;
+    width: 85%;
     
   
 }
@@ -95,5 +95,36 @@
 .common-title, .card-title{
     font-size: 1.4rem;
 }
+.news-letter-content{
+    flex-direction: column;
+    
 
+    
+}
+.common-description{
+    font-size: 14px;
+}
+.save-discount img{
+    
+  
+    margin-top: 40px;
+    
+}
+.footer-text-content{
+    padding: 10px;
+}
+.footer-title h3{
+margin-bottom: 16px;
+    font-size: 1.5rem;
+   
+}
+hr{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.footer-text-content img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 }

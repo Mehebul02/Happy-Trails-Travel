@@ -305,8 +305,18 @@ li a:hover {
     min-height: 400px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 2px solid red;
+   
+   
+}
+.news-letter-content{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+.news-letter-form{
+    width: 90%;
 }
 
 .form-title {
@@ -322,15 +332,16 @@ li a:hover {
     font-weight: 400;
     line-height: 26px;
 }
-.newsletter-form{
+/* .newsletter-form{
     padding: 40px 40px;
-    border: 2px solid yellowgreen;
-    width: 50%;
-}
-form input {
+   
+   
+} */
+.form-container input {
     display: block;
     width: 393px;
     height: 52px;
+  
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     color: rgba(19, 19, 24, 0.30);
@@ -338,13 +349,14 @@ form input {
     font-weight: 400;
     border: none;
     margin-top: 16px;
-    padding: 16px;
+   
 
 }
 #subscribe-btn{
     margin-top: 24px;
     width: 393px;
 height: 52px;
+padding: 16px 160px;
 border: none;
 border-radius: 8px;
 background: #FF5400;
@@ -354,12 +366,55 @@ font-size: 20px;
 font-weight: 800;
 
 }
-.save-discount{
-    width: 50%;
-    border: 3px solid red;
-    background-image: url("/Images/Rectangle\ 8.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.save-discount img{
+    width: 100%;
+    
+}
+/* .save{
+    width: 315px;
+height: 110px;
+transform: rotate(-19.628deg);
+border-radius: 1rem;
+background: #FF5400;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom:  47px;
+left: 57%;
+
+} */
+.footer-text-content{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    
+}
+.footer-title{
+    display: flex;
+    justify-content:center ;
+    gap: 24px;
+    align-items: center;
+
+}
+.footer-text-content{
+    text-align: center;
+    padding: 120px;
+}
+hr{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.footer-title h3{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer-text-content img{
+    margin-top: 33px;
+    margin-bottom: 50px;
 }
 .hide {
     display: none;
