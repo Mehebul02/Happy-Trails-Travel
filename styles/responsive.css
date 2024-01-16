@@ -95,11 +95,18 @@
 .common-title, .card-title{
     font-size: 1.4rem;
 }
-.news-letter-content{
+.login-container {
+    max-width: 100%;
+}
+.news-container{
     flex-direction: column;
-    
-
-    
+}
+.login-container {
+    max-width: 100%;
+}
+.news-container-img img{
+    width: 100%;
+    margin: 0 auto;
 }
 .common-description{
     font-size: 14px;
@@ -127,4 +134,18 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.save{
+    width: 214.023px;
+    height: 79.268px;
+transform: rotate(-19.628deg);
+border-radius: 1rem;
+background: #FF5400;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 46px;
+right:  0px;
+
+} 
 }
