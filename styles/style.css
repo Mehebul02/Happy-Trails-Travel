@@ -9,6 +9,22 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+/* Common Styles */
+.btn-primary {
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+
+}
 
 /* variable color  */
 :root {
@@ -73,13 +89,17 @@ li a:hover {
 
 /* Banner Section styles */
 .banner {
-    max-width: 1240px;
-    border: 2px solid red;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    max-width: 1140px;
+    width: 75%;
+    height: 500px;
+    border: 1px solid rgb(255, 254, 254);
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-position: top center;
     margin: 0 auto;
-    min-height: 600px;
+
     border-radius: 16px;
 
 }
@@ -109,14 +129,14 @@ li a:hover {
     border-radius: 8px;
     display: inline-block;
     padding: 16px;
-  
+
     align-items: center;
-    
+
 }
 
 .form-section input,
 #select-btn {
-   margin-left: 15px;
+    margin-left: 15px;
     width: 150px;
     height: 40px;
     padding: 10px;
@@ -124,12 +144,14 @@ li a:hover {
     background: #FFF;
     border: none;
     border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
 
 
 
 }
 
-/* #select-btn{
-    width: 150px;
-    height: 40px;
- } */
