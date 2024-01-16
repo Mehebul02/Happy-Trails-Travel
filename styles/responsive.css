@@ -28,6 +28,7 @@
         max-width: 1140px;
         width: 95%;
         height: 500px;
+        margin-top: 20px;
        
     }
     .banner-title, .banner-content {
@@ -56,8 +57,18 @@
    width:240px;
    margin-top: 10px;
 }
-.form-section input{
+/* Tours Container */
+.tours-container{
+    flex-direction: column;
+    padding: 30px;
+    margin: 0 auto;
     
+}
+.tours-title{
+    font-size: 2rem;
+}
+.tours-img img{
+   width: 100%;
 }
 
 }
