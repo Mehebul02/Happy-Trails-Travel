@@ -152,7 +152,7 @@ bottom: 30px;
 right:  40px;
 
 } 
-.deals-card{
+.deals-card , .deals-card-2{
  padding: 20px;
  bottom: 0;
  max-width: 90%;
