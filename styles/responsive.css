@@ -163,7 +163,7 @@ right:  40px;
  .deals-icon{
     display: flex;
  
-  font-size: 13px;
+  font-size: 11px;
   gap: 20px;
    
     align-items: center;
@@ -171,5 +171,20 @@ right:  40px;
 }
 .deals-discounts-text{
     padding: 15px;
+}
+.perfect-place-container{
+    flex-direction: column;
+    max-width: 87%;
+    margin: 0 auto;
+}
+.perfect-title{
+    font-size: 20px;
+    max-width: 89%;
+   
+}
+.video-section img {
+    margin-top: 20px;
+    max-width: 100%;
+
 }
 }
