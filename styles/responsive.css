@@ -109,7 +109,7 @@
 }
 .news-container{
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 50px;
 }
 .login-container {
     max-width: 82%;
@@ -146,11 +146,30 @@ hr{
     margin-bottom: 15px;
 }
 .save{
-    width: 214.023px;
-    height: 79.268px;
+    width: 200px;
+    height: 70px;
 bottom: 30px;
 right:  40px;
 
 } 
-
+.deals-card{
+ padding: 20px;
+ bottom: 0;
+ max-width: 90%;
+ right: 4%;
+ bottom: 7%;
+ 
+ }
+ .deals-icon{
+    display: flex;
+ 
+  font-size: 13px;
+  gap: 20px;
+   
+    align-items: center;
+   
+}
+.deals-discounts-text{
+    padding: 15px;
+}
 }
