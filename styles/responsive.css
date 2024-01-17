@@ -89,6 +89,9 @@
     margin: 0 auto;
     margin-top: 20px;
 }
+.why-choose-us-container, .deals-discounts-container {
+    margin-top: 40px;
+}
 .choose-us-card-container {
     flex-direction: column;
 }
@@ -120,7 +123,8 @@
     margin: 0 auto;
 }
 .common-description{
-    font-size: 14px;
+    font-size: 16px;
+    padding: 10px;
 }
 .save-discount img{
     
